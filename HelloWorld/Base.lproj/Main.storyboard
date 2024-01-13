@@ -35,6 +35,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="italicSystem" pointSize="28"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSV-Dx-UA2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,6 +50,10 @@
                             <constraint firstItem="0XG-oL-1ff" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="wuT-k4-CUb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HelloWorldLabel" destination="0XG-oL-1ff" id="tch-dY-2la"/>
+                        <outlet property="showTextButton" destination="S1o-3q-QGp" id="RXd-OP-13x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
